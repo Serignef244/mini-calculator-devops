@@ -8,7 +8,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git branch: 'main', url: 'https://github.com/your-username/mini-calculator-devops.git'
+                git branch: 'master', url: 'https://github.com/Serignef244/mini-calculator-devops.git'
             }
         }
 
